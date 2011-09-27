@@ -32,6 +32,12 @@ class Manager {
 		self::logln("[Manager] inserting image " . $path);
 		echo "<img src='$path' />";
 	}
+	
+	public static function part($filename) {
+		$path = Path::sys_part($filename . '.part.php');
+		self::logln("[Manager] loading part " . $path);
+		require $path;
+	}
 }
 
 Manager::logln('[Manager] initializing');

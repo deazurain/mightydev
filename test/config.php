@@ -3,6 +3,7 @@
 class Config {
 	static $project_dir = "test";
 	static $manager_dir = "manager";
+	static $part_dir = "parts";
 	static $image_dir = "images";
 	static $css_dir = "css";
 	static $js_dir = "js";
