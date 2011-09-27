@@ -1,0 +1,30 @@
+
+#page {
+  margin-left: 330px;
+  max-width: 600px;
+  padding: 0 10px 0 10px;
+  color: #333333;
+  background: url('page line left.png') no-repeat;
+}
+
+#page h3 {
+  font-family: HelveticaNeue;
+  font-size: 22px;
+}
+
+#page p {
+  font-family: HelveticaNeue;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+#page .box {
+  margin: 18px 8px 18px 8px;
+  box-shadow: 0 0 4px black;
+}
+
+#page .box img {
+  border: 1px solid white;
+  width:100%;
+}
+

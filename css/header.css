@@ -1,0 +1,13 @@
+
+#header {
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+#header .logo {
+  background: transparent url('logo.png');
+  width: 344px;
+  height: 60px;
+  margin-left: 64px;
+}

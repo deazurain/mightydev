@@ -1,0 +1,41 @@
+
+#menu {
+  float: left;
+  
+  font-family: HelveticaNeue, Geneva, sans-serif;
+  font-size: 30px;
+  color: #9d9d9d;
+  text-shadow: 
+    rgba(0,0,0,0.5) -1px 0, 
+    rgba(0,0,0,0.3) 0 -1px, 
+    rgba(255,255,255,0.5) 0 1px, 
+    rgba(0,0,0,0.5) -1px -1px;
+}
+
+#menu ul {
+  margin:0;
+  padding:0;
+}
+
+#menu li {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+#menu .selected a{
+  color: #662897;
+} 
+
+#menu .top {
+  height: 1px;
+  width: 100%;
+  background: transparent url('line top.png') no-repeat;
+}
+
+
+#menu .bottom {
+  height: 1px;
+  width: 100%;
+  background: transparent url('line bottom.png') no-repeat;
+}
