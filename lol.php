@@ -1,5 +1,0 @@
-<?php
-
-$content = "da content";
-
-?>
