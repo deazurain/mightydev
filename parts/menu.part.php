@@ -10,8 +10,8 @@
     );
     $current_path = $_SERVER['PHP_SELF'];
     foreach ($links as $page => $name) {
-      $attr = ($current_path == $page) ? 'class="current"' : '';
-?>    <li><a <?=$attr?> href="<?=$page?>"><?=$name?></a></li> <?php
+      $attr = ($current_path == $page) ? 'class="selected"' : '';
+?>    <li <?=$attr?>> <a href="<?=$page?>"><?=$name?></a></li> <?php
     }
 ?>
   </ul>

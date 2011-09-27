@@ -46,10 +46,10 @@ class Path {
 
 Path::$sys_website = $_SERVER['DOCUMENT_ROOT'] . '/';
 Path::$sys_manager = Path::sys_website(Config::$manager_dir . '/');
-Path::$sys_project = Path::sys_website(Config::$project_dir . '/');
+Path::$sys_project = Path::sys_website(Config::$project_dir ? Config::$project_dir . '/' : '');
 Path::$sys_part = Path::sys_project(Config::$part_dir . '/');
 
-Path::$web_project = '/' . Config::$project_dir . '/';
+Path::$web_project = Config::$project_dir ? '/' . Config::$project_dir . '/' : '/';
 Path::$web_image = Path::web_project(Config::$image_dir . '/');
 Path::$web_css = Path::web_project(Config::$css_dir . '/');
 Path::$web_js = Path::web_project(Config::$js_dir . '/');

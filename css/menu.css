@@ -30,12 +30,12 @@
 #menu .top {
   height: 1px;
   width: 100%;
-  background: transparent url('line top.png') no-repeat;
+  background: transparent url('../images/line top.png') no-repeat;
 }
 
 
 #menu .bottom {
   height: 1px;
   width: 100%;
-  background: transparent url('line bottom.png') no-repeat;
+  background: transparent url('../images/line bottom.png') no-repeat;
 }

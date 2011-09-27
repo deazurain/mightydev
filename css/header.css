@@ -6,7 +6,7 @@
 }
 
 #header .logo {
-  background: transparent url('logo.png');
+  background: transparent url('../images/logo.png');
   width: 344px;
   height: 60px;
   margin-left: 64px;
