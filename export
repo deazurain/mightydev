@@ -1,0 +1,11 @@
+rm -f -r ../mightydev_export
+mkdir ../mightydev_export
+cp -r * ../mightydev_export
+cd ../mightydev_export
+
+mv -f config.export.php config.php
+
+rm -f -r .git
+rm -f -r manager
+rm -f export
+rm -f .project
