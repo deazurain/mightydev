@@ -1,6 +1,6 @@
 
 #page {
-  margin-left: 330px;
+  margin-left: 300px;
   max-width: 600px;
   padding: 0 10px 0 10px;
   color: #333333;
@@ -20,11 +20,27 @@
 
 #page .box {
   margin: 18px 8px 18px 8px;
-  box-shadow: 0 0 4px black;
+  box-shadow: 0 0 5px black;
+  background-color: white;
+}
+#page .box.left {
+  float: left;
+}
+#page .box.right {
+  float: right;
 }
 
 #page .box img {
-  border: 1px solid white;
-  width:100%;
+  display: block;
+  max-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#page .box h5 {
+  display: block;
+  margin: 2px;
+  padding: 2px;
+  border-top: 1px solid gray;
+  text-align: right;
+}

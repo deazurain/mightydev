@@ -10,3 +10,7 @@ color: inherit;
 font-style: inherit;
 text-decoration: inherit;
 }
+
+.clear {
+  clear: both;
+}
